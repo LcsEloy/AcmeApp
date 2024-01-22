@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <TextView
+        android:id="@+id/msgRegiao"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Selecione a sua região"
+        android:textSize="22dp"
+        android:layout_marginTop="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btNorte"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Zona Norte"
+        android:layout_marginTop="25dp"
+        app:layout_constraintTop_toBottomOf="@id/msgRegiao" />
+
+    <Button
+        android:id="@+id/btSul"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Zona Sul"
+        android:layout_marginTop="10dp"
+        app:layout_constraintTop_toBottomOf="@id/btNorte" />
+
+    <Button
+        android:id="@+id/btLeste"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Zona Leste"
+        android:layout_marginTop="10dp"
+        app:layout_constraintTop_toBottomOf="@id/btSul" />
+
+    <Button
+        android:id="@+id/btOeste"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Zona Oeste"
+        android:layout_marginTop="10dp"
+        app:layout_constraintTop_toBottomOf="@id/btLeste" />
+
+    <Button
+        android:id="@+id/btCancelar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Cancelar"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"/>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

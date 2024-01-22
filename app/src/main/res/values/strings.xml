@@ -1,0 +1,69 @@
+<resources>
+    <string name="app_name">Acme App</string>
+    <string-array name="tipo_residuos">
+        <item> </item>
+        <item>PLÁSTICOS</item>
+        <item>PAPÉIS</item>
+        <item>METAIS</item>
+        <item>VIDROS</item>
+    </string-array>
+
+    <array name="datas">
+        <item> </item>
+        <item>01/07</item>
+        <item>04/07</item>
+        <item>06/07</item>
+        <item>08/07</item>
+        <item>11/07</item>
+        <item>13/07</item>
+        <item>15/07</item>
+        <item>18/07</item>
+        <item>20/07</item>
+        <item>22/07</item>
+        <item>25/07</item>
+        <item>27/07</item>
+        <item>29/07</item>
+    </array>
+
+    <array name="horario_norte">
+        <item> </item>
+        <item>07h30</item>
+        <item>08h00</item>
+        <item>08h30</item>
+        <item>09h00</item>
+        <item>10h00</item>
+        <item>11h00</item>
+        <item>12h00</item>
+    </array>
+
+    <array name="horario_sul">
+        <item> </item>
+        <item>17h30</item>
+        <item>18h00</item>
+        <item>18h30</item>
+        <item>19h00</item>
+        <item>20h00</item>
+    </array>
+
+    <array name="horario_leste">
+        <item> </item>
+        <item>13h30</item>
+        <item>14h00</item>
+    </array>
+
+    <array name="horario_oeste">
+        <item> </item>
+        <item>07h30</item>
+        <item>08h00</item>
+        <item>08h30</item>
+        <item>09h00</item>
+        <item>10h00</item>
+        <item>11h00</item>
+        <item>12h00</item>
+        <item>17h30</item>
+        <item>18h00</item>
+        <item>18h30</item>
+        <item>19h00</item>
+        <item>20h00</item>
+    </array>
+</resources>
